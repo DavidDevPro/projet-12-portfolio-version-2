@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Accueil",
+    "to": "/"
+  },
+  {
+    "label": "A propos",
+    "to": "/about"
+  },
+  {
+    "label": "Projets",
+    "to": "/projets"
+  },
+  {
+    "label": "Compétences",
+    "to": "/competences"
+  },
+  {
+    "label": "Contact",
+    "to": "/contact"
+  }
+]

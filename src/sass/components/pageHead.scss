@@ -1,0 +1,27 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.pageHead {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px dashed $fourth_color;
+
+  h2 {
+    @include poppins;
+    font-size: 2.2em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: $fourth_color;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  span {
+    svg {
+      color: $fourth_color;
+    }
+  }
+}

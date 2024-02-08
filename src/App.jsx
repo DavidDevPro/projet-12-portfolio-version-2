@@ -5,14 +5,13 @@ import AboutPage from "./pages/AboutPage";
 import Projets from "./pages/Projets";
 import Competences from "./pages/Competences";
 import Contact from "./pages/Contact";
+import Navigation from "./components/Navigation";
 
 const App = () => {
   return (
     <div>
-      {/* particles js */}
-
       {/* navigation */}
-
+      <Navigation />
       {/* main page content */}
       <Routes>
         <Route index path="/" element={<HomePage />} />

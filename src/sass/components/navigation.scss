@@ -1,0 +1,87 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.navigation {
+  background-color: $primary900_color;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    padding: 0 25px;
+    flex: 1;
+
+    &__logo {
+      color: $fourth_color;
+    }
+    &__menu {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        top: 60px;
+        left: -110%;
+        opacity: 1;
+        transition: all 500ms ease;
+
+        &.active {
+          background: $primary900_color;
+          left: 0px;
+          opacity: 1;
+        }
+      }
+
+      &__item {
+        line-height: 2em;
+        margin-right: 1.5em;
+        font-size: 1.15em;
+        @media screen and (max-width: 768px) {
+          border-bottom: 1px solid #282828;
+          margin: 0px;
+          padding: 20px 0;
+          font-size: 1.4em;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          height: 3px;
+          width: 0;
+          background: transparent;
+          transition: all 500ms ease;
+        }
+        &:hover::after {
+          width: 100%;
+          background: $fourth_color;
+        }
+        &__links {
+          @include montserrat;
+          text-decoration: none;
+          color: $fourth_color;
+          padding: 0.1em;
+        }
+      }
+    }
+  }
+}
+.navigation-icon {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+    cursor: pointer;
+    color: $fourth_color;
+    padding-right: 20px;
+  }
+}
