@@ -1,0 +1,14 @@
+[
+  {
+    "filterId": 1,
+    "label": "All"
+  },
+  {
+    "filterId": 2,
+    "label": "Développement"
+  },
+  {
+    "filterId": 3,
+    "label": "SEO"
+  }
+]
