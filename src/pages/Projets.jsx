@@ -3,6 +3,7 @@ import { BsMouse3 } from "react-icons/bs";
 import PageHead from "../components/PageHead";
 import DataProjets from "../data/projets.json";
 import filterData from "../data/filter.json";
+import { Link } from "react-router-dom";
 
 const Projets = () => {
   const [filteredvalue, setFilteredValue] = useState(1);
@@ -54,7 +55,9 @@ const Projets = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.title}</p>
-                    <button>Visiter</button>
+                    <Link to={`/projetscontent/${item.pageId}`}>
+                      <button>Visiter</button>
+                    </Link>
                   </div>
                 )}
               </div>

@@ -6,6 +6,7 @@ import Projets from "./pages/Projets";
 import Competences from "./pages/Competences";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
+import ProjetsContent from "./pages/ProjetsContent";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route index path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projets" element={<Projets />} />
+        <Route path="/projetscontent/:id" element={<ProjetsContent />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
