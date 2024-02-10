@@ -8,6 +8,7 @@
   border-bottom: 1px dashed $fourth_color;
 
   h2 {
+    @include transition500;
     @include poppins;
     font-size: 2.2em;
     font-weight: 600;
@@ -17,6 +18,14 @@
     color: $fourth_color;
     display: flex;
     flex-grow: 1;
+    @media screen and (max-width: 768px) {
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 1.7em;
+      letter-spacing: 0.5px;
+    }
   }
 
   span {

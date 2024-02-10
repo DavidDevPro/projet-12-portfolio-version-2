@@ -16,7 +16,7 @@ const Navigation = () => {
       <nav className="navigation">
         <div className="navigation__container">
           <Link to={"/"} className="navigation__container__logo">
-            <FaReact size={30} />
+            <h1>Portfolio</h1>
           </Link>
         </div>
         <ul
@@ -36,7 +36,7 @@ const Navigation = () => {
           ))}
         </ul>
         <div className="navigation-icon" onClick={handleToggleIcon}>
-          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
+          {toggleIcon ? <HiX size={40} /> : <FaBars size={40} />}
         </div>
       </nav>
     </div>

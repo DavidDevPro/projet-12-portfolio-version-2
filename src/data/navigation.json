@@ -12,10 +12,6 @@
     "to": "/projets"
   },
   {
-    "label": "Compétences",
-    "to": "/competences"
-  },
-  {
     "label": "Contact",
     "to": "/contact"
   }
