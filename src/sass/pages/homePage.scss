@@ -1,0 +1,106 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.homePage {
+  img {
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    margin: 0px 0 80px;
+    filter: brightness(0.9);
+    box-shadow: rgba(104, 104, 104, 0.3) -2px 2px 12px -5px;
+  }
+
+  &__container {
+    @include montserrat;
+    color: $secondary_color;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 20px;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h2 {
+        @include transition350;
+        font-size: 2.5em;
+        @media screen and (max-width: 1024px) {
+          font-size: 2em;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 2.2em;
+          text-align: center;
+        }
+      }
+
+      &__name {
+        @include transition350;
+        font-size: 4em;
+        font-weight: 500;
+        display: flex;
+        gap: 10px;
+        @media screen and (max-width: 1024px) {
+          font-size: 3.75em;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 3.4em;
+          margin: 0 auto;
+        }
+        @media screen and (max-width: 400px) {
+          font-size: 2em;
+        }
+
+        span {
+          color: $fourth_color;
+        }
+      }
+      p:nth-child(3) {
+        @include transition350;
+        font-size: 4em;
+        font-weight: 500;
+        @media screen and (max-width: 1024px) {
+          font-size: 3.75em;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 1.85em;
+          text-align: center;
+        }
+        @media screen and (max-width: 400px) {
+          font-size: 1.2em;
+        }
+      }
+      button {
+        @include transition350;
+        @include poppins;
+        font-size: 1.4em;
+        font-weight: 500;
+        color: $third_color;
+        background-color: transparent;
+        padding: 7px 25px;
+        border-radius: 25px;
+        border: 2px solid $fourth_color;
+        width: 230px;
+        margin-top: 15px;
+        cursor: pointer;
+
+        &:hover {
+          background: $secondary_color;
+          color: $primary_color;
+        }
+      }
+      a {
+        @include transition350;
+        @media screen and (max-width: 768px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
