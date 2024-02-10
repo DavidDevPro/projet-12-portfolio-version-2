@@ -17,3 +17,8 @@
 @mixin transition350 {
   transition: all 350ms ease;
 }
+
+/********** transition 425ms ease **********/
+@mixin transition425 {
+  transition: all 425ms ease;
+}

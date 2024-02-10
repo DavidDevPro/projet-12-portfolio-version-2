@@ -112,9 +112,16 @@ section {
   padding: 0;
   margin: 0;
 }
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: $primary_color;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 #root {
   height: 100%;

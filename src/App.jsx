@@ -6,6 +6,7 @@ import Projets from "./pages/Projets";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
 import ProjetsContent from "./pages/ProjetsContent";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/projetscontent/:id" element={<ProjetsContent />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
