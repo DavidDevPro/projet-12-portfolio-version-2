@@ -2,11 +2,15 @@
 @import "../utils/variables.scss";
 
 .projetsPage {
+  display: flex;
+  flex-direction: column;
+
   &__content {
     padding: 20px;
     width: 100%;
     max-width: 1600px;
-    margin: auto;
+    margin: 0 auto;
+    flex-grow: 1;
 
     &__filter {
       display: inline-block;

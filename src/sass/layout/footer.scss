@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: space-between;
     color: $secondary_color;
-    flex-grow: 1;
     @media screen and (max-width: 768px) {
       flex-direction: column-reverse;
     }
