@@ -50,6 +50,7 @@ const Projets = () => {
                 <a>
                   <img src={item.picture} alt={`image du ${item.title}`} />
                 </a>
+                <p>{item.title}</p>
               </div>
               <div className="overlay">
                 {index === hoveredValue && (

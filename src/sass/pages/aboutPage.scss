@@ -46,8 +46,10 @@
       }
       p {
         @include transition350;
+        @include poppins;
         color: $secondary_color;
         line-height: 1.5em;
+        font-weight: 300;
         font-size: 1.25em;
         padding-bottom: 30px;
         border-bottom: 1px dashed $fourth_color;
@@ -76,10 +78,11 @@
 
         span.value {
           @include transition350;
+          @include poppins;
           border: none;
-          font-weight: 500;
+          font-weight: 400;
           @media screen and (max-width: 768px) {
-            font-weight: 400;
+            font-weight: 300;
             font-size: 1.2em;
           }
         }

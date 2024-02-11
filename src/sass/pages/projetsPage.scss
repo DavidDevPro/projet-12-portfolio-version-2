@@ -45,11 +45,15 @@
       }
     }
     &__cards {
+      @include transition350;
+      margin-top: 20px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-auto-rows: auto;
-      gap: 1em;
-      margin-top: 20px;
+      gap: 1.5em;
+      @media screen and (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
       @media screen and (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
       }
@@ -58,23 +62,32 @@
         height: 366px;
         cursor: pointer;
         position: relative;
+        margin-bottom: 50px;
 
         &:hover .overlay {
           opacity: 0.95;
         }
 
         &__img-wrapper {
-          height: 100%;
-
           a {
-            height: 100%;
-
             img {
-              height: inherit;
-              object-fit: cover;
               width: 100%;
+              max-width: 1024px;
+              margin: auto;
+              height: 366px;
               border-radius: 25px;
+              @media screen and (max-width: 768px) {
+              }
             }
+          }
+          p {
+            @include montserrat;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            color: $secondary-color;
+            padding: 5px 0;
+            border-bottom: 1px dashed $fourth_color;
           }
         }
         .overlay {

@@ -7,8 +7,8 @@
   margin: 50px auto 0;
 
   .contactText {
-    padding: 20px;
     @include montserrat;
+    padding: 20px;
     color: $secondary_color;
     display: flex;
     flex-direction: column;
@@ -20,24 +20,43 @@
     margin: 0 auto;
 
     h2 {
-      font-size: 2.5em;
+      @include transition350;
+      font-size: 3em;
       font-weight: 500;
+      @media screen and (max-width: 768px) {
+        font-size: 2em;
+      }
     }
     p {
+      @include transition350;
+      @include poppins;
       max-width: 768px;
       line-height: 1.5em;
-      font-size: 1.05em;
+      font-size: 1.1em;
+      font-weight: 300;
       border-bottom: 1px dashed $fourth_color;
       padding-bottom: 40px;
+      @media screen and (max-width: 768px) {
+        font-size: 1em;
+      }
     }
 
     &__infos {
+      @include transition350;
       display: flex;
       flex-direction: column;
-      gap: 15px;
-      font-size: 1.4em;
+      gap: 10px;
+      font-size: 1.8em;
       font-weight: 500;
       margin-top: 40px;
+      border-bottom: 1px dashed $fourth_color;
+      padding-bottom: 40px;
+      @media screen and (max-width: 768px) {
+        font-size: 1.4em;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 1.25em;
+      }
     }
   }
 }

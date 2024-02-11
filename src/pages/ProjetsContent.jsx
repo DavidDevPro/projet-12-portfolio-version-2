@@ -15,12 +15,20 @@ const ProjetsContent = () => {
         headerText="Détails du projet"
         icon={<BsInfoCircleFill size={45} />}
       />
-      <div className="page__container">
-        <img
-          className="page__container__img"
-          src={projet.picture}
-          alt={`image du ${projet.title}`}
-        />
+      <div className="page">
+        <div className="page__container">
+          <h2>{projet.title}</h2>
+          <img
+            className="page__container__img"
+            src={projet.picture}
+            alt={`image du ${projet.title}`}
+          />
+          <div className="page__container__tags">
+            {projet.tags.map((tag, index) => (
+              <span key={index}>{tag}</span>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
