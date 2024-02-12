@@ -12,7 +12,7 @@ const Navigation = () => {
   };
 
   return (
-    <div>
+    <header>
       <nav className="navigation">
         <div className="navigation__container">
           <Link to={"/"} className="navigation__container__logo">
@@ -39,7 +39,7 @@ const Navigation = () => {
           {toggleIcon ? <HiX size={40} /> : <FaBars size={40} />}
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

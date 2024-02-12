@@ -1,6 +1,7 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHead from "../components/PageHead";
+import ProjetsDescription from "./PojetsDescription";
 import { useParams } from "react-router-dom";
 import Projets from "../data/projets.json";
 
@@ -30,6 +31,8 @@ const ProjetsContent = () => {
           </div>
         </div>
       </div>
+      {/* Passer le projet à ProjetsDescription */}
+      <ProjetsDescription projet={projet} />
     </div>
   );
 };

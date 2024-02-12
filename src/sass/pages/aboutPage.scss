@@ -35,10 +35,10 @@
 
     &__personalWrapper {
       h3 {
-        margin-bottom: 30px;
-        font-size: 2.5em;
+        margin-bottom: 35px;
+        font-size: 2.6em;
         font-weight: 600;
-        color: $fourth_color;
+        color: $secondary900_color;
       }
 
       h3.personalInformationHeaderText {
@@ -51,7 +51,7 @@
         line-height: 1.5em;
         font-weight: 300;
         font-size: 1.25em;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         border-bottom: 1px dashed $fourth_color;
         @media screen and (max-width: 768px) {
           line-height: 1.3em;

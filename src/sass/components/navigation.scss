@@ -21,7 +21,7 @@
       @include poppins;
       color: $fourth_color;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: 0.6px;
       font-size: 1.4em;
     }
@@ -74,12 +74,12 @@
         }
         &:hover::after {
           width: 100%;
-          background: $fourth_color;
+          background: $secondary900_color;
         }
         &__links {
           @include montserrat;
           text-decoration: none;
-          color: $fourth_color;
+          color: $secondary900_color;
           padding: 0.1em;
         }
       }
@@ -91,6 +91,6 @@
   @media screen and (max-width: 768px) {
     display: block;
     cursor: pointer;
-    color: $fourth_color;
+    color: $secondary900_color;
   }
 }

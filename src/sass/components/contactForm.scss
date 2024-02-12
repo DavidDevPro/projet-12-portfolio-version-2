@@ -38,7 +38,7 @@
       label {
         @include transition350;
         @include montserrat;
-        color: $secondary_color;
+        color: $secondary900_color;
         font-size: 1.25em;
         margin-top: 30px;
         padding-left: 5px;
@@ -83,7 +83,7 @@
         @include transition350;
         width: 230px;
         background-color: transparent;
-        color: $third_color;
+        color: $secondary900_color;
         margin: 80px auto 0;
         border-radius: 25px;
         padding: 7px 25px;
