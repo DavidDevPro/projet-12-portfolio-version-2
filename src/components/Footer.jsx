@@ -14,51 +14,51 @@ const Footer = () => {
           <p>2024 © David Changea. Tous droits réservés.</p>
         </div>
         <div className="footer__container__iconsContainer">
-          <Link
-            to="https://twitter.com"
+          <a
+            href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            alt="Twitter"
+            aria-label="Twitter"
             className="footer__container__iconsContainer__icon"
           >
             <FaTwitter size={20} />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/david-changea-440a7945/"
+          </a>
+          <a
+            href="https://www.linkedin.com/in/david-changea-440a7945/"
             target="_blank"
             rel="noopener noreferrer"
-            alt="linkedin"
+            aria-label="Linkedin"
             className="footer__container__iconsContainer__icon"
           >
             <FaLinkedinIn size={20} />
-          </Link>
-          <Link
-            to="https://www.facebook.com/veday.shop/?locale=fr_FR"
+          </a>
+          <a
+            href="https://www.facebook.com/veday.shop/?locale=fr_FR"
             target="_blank"
             rel="noopener noreferrer"
-            alt="facebook"
+            aria-label="Facebook"
             className="footer__container__iconsContainer__icon"
           >
             <FaFacebookF size={20} />
-          </Link>
-          <Link
-            to="https://github.com/david-backup"
+          </a>
+          <a
+            href="https://github.com/david-backup"
             target="_blank"
             rel="noopener noreferrer"
-            alt="github"
+            aria-label="Github"
             className="footer__container__iconsContainer__icon"
           >
             <FaGithub size={20} />
-          </Link>
-          <Link
-            to="mailto:14ir155@gmail.com"
+          </a>
+          <a
+            href="mailto:14ir155@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            alt="envoyer un message"
+            aria-label="Envoyer un message"
             className="footer__container__iconsContainer__icon"
           >
             <TfiEmail size={20} />
-          </Link>
+          </a>
         </div>
       </div>
     </footer>

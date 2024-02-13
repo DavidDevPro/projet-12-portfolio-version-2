@@ -4,7 +4,7 @@
     "id": 2,
     "link": "",
     "title": "Site OhmyFood",
-    "picture": "https://david.studio-pl.com/_DAVID/portfolio/db/ohmyfood.PNG",
+    "picture": "/src/assets/img/ohmyfood_cover.webp",
     "pictures": [],
     "description": "Développement d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
     "tags": [
@@ -17,7 +17,7 @@
     "id": 2,
     "link": "",
     "title": "Site Sophie Bluel",
-    "picture": "https://david.studio-pl.com/_DAVID/portfolio/db/sophieBuel.PNG",
+    "picture": "/src/assets/img/sophie_cover.webp",
     "pictures": [],
     "description": "Conception du site portfolio d’une architecte d’intérieur avec Javascript.",
     "tags": [
@@ -31,7 +31,7 @@
     "id": 2,
     "link": "",
     "title": "Site Kasa en React",
-    "picture": "https://david.studio-pl.com/_DAVID/portfolio/db/kasa.PNG",
+    "picture": "/src/assets/img/kasa_cover.webp",
     "pictures": [],
     "description": "Création d'une application web de location immobilière avec React.",
     "tags": [
@@ -45,7 +45,7 @@
     "id": 3,
     "link": "",
     "title": "Site Nina Carducci",
-    "picture": "https://david.studio-pl.com/_DAVID/portfolio/db/projet9.jpg",
+    "picture": "/src/assets/img/nina_cover.webp",
     "pictures": [],
     "description": "Optimisation du référencement d'un site de photographe.",
     "tags": [

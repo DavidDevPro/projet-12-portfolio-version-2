@@ -54,11 +54,12 @@
           font-size: 2em;
         }
 
-        span {
+        h4 {
           color: $fourth_color;
+          font-weight: 500;
         }
       }
-      p:nth-child(3) {
+      h5 {
         @include transition350;
         font-size: 4em;
         font-weight: 400;

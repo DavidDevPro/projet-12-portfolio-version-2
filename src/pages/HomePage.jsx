@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../assets/img/homeBackground.jpg";
+import background from "../assets/img/homeBackground.webp";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -10,10 +10,10 @@ const HomePage = () => {
         <div className="homePage__container__text">
           <h2>Bonjour,</h2>
           <div className="homePage__container__text__name">
-            <p>Je suis </p>
-            <span>David</span>
+            <h3>Je suis </h3>
+            <h4>David</h4>
           </div>
-          <p>Développeur Front-End</p>
+          <h5>Développeur Front-End</h5>
           <Link to="/contact">
             <button>Contactez-moi</button>
           </Link>
