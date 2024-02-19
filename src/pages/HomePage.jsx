@@ -1,11 +1,22 @@
 import React from "react";
-import background from "../assets/img/homeBackground.webp";
+import background from "../assets/img/home.webp";
+import background1024 from "../assets/img/home-1024.webp";
+import background450 from "../assets/img/home-450.webp";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div className="homePage">
-      <img src={background} alt="image de la page d'accueil" />
+      <picture>
+        <source media="(min-width: 1024px)" srcSet={background1024} />
+        <source media="(min-width: 425px)" srcSet={background450} />
+        <img
+          src={background}
+          alt="image de la page d'accueil"
+          loading="lazy"
+          sizes="100vw"
+        />
+      </picture>
       <div className="homePage__container">
         <div className="homePage__container__text">
           <h2>Bonjour,</h2>
