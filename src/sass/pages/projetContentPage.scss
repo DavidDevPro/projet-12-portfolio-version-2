@@ -20,12 +20,11 @@
       gap: 30px;
       border-radius: 25px;
       padding: 30px 15px;
-      background: $fourth_color;
-      box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
-
+      background: $primary_color;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
       h2 {
         @include montserrat;
-        color: $primary900_color;
+        color: $secondary_color;
         font-size: 2.7em;
         font-weight: 600;
         letter-spacing: 0.5px;
@@ -33,12 +32,12 @@
 
       &__img {
         width: 100%;
-        max-width: 700px;
+        max-width: 600px;
         margin: auto;
         object-fit: top/cover;
-        height: 475px;
+        height: auto;
         display: block;
-        border: 0.1px solid $primary_color;
+        border: 1px solid $primary900_color;
         border-radius: 25px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
           rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -56,12 +55,12 @@
         span {
           @include montserrat;
           @include transition500;
-          color: $primary900_color;
+          color: $secondary_color;
           font-size: 1.15em;
           font-weight: 600;
           padding: 4px 25px;
           border-radius: 10px;
-          border: 2px solid $primary900_color;
+          border: 2px solid $fourth_color;
           display: block;
           width: 150px;
         }

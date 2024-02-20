@@ -48,7 +48,7 @@ const Projets = () => {
             >
               <div className="projetsPage__content__cards__item__img-wrapper">
                 <a>
-                  <img src={item.picture} alt={`image du ${item.title}`} />
+                  <img src={item.picture500} alt={`image du ${item.title}`} />
                 </a>
                 <p>{item.title}</p>
               </div>

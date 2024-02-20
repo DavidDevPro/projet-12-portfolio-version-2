@@ -1,0 +1,23 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.page__content {
+  @include montserrat;
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  color: $secondary_color;
+  padding: 25px;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    h3 {
+      font-size: 1.22em;
+      font-weight: 500;
+    }
+  }
+}

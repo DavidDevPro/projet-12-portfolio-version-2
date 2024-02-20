@@ -5,6 +5,7 @@
     "link": "",
     "title": "Site OhmyFood",
     "picture": "/src/assets/img/ohmyfood_cover.webp",
+    "picture500": "/src/assets/img/ohmyfood_cover500.webp",
     "pictures": [],
     "description": "Développement d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
     "tags": [
@@ -18,6 +19,7 @@
     "link": "",
     "title": "Site Sophie Bluel",
     "picture": "/src/assets/img/sophie_cover.webp",
+    "picture500": "/src/assets/img/sophie_cover500.webp",
     "pictures": [],
     "description": "Conception du site portfolio d’une architecte d’intérieur avec Javascript.",
     "tags": [
@@ -32,6 +34,7 @@
     "link": "",
     "title": "Site Kasa en React",
     "picture": "/src/assets/img/kasa_cover.webp",
+    "picture500": "/src/assets/img/kasa_cover500.webp",
     "pictures": [],
     "description": "Création d'une application web de location immobilière avec React.",
     "tags": [
@@ -46,6 +49,7 @@
     "link": "",
     "title": "Site Nina Carducci",
     "picture": "/src/assets/img/nina_cover.webp",
+    "picture500": "/src/assets/img/nina_cover500.webp",
     "pictures": [],
     "description": "Optimisation du référencement d'un site de photographe.",
     "tags": [
