@@ -6,7 +6,23 @@
     "title": "Site OhmyFood",
     "picture": "/src/assets/img/ohmyfood_cover.webp",
     "picture500": "/src/assets/img/ohmyfood_cover500.webp",
-    "pictures": [],
+    "pictures": [
+      {
+        "picture1": "/src/assets/img/ohmyfood1.webp",
+        "title1": "Création de pages menus.",
+        "text1": ""
+      },
+      {
+        "picture2": "",
+        "title2": "",
+        "text2": ""
+      },
+      {
+        "picture3": "",
+        "title3": "",
+        "text3": ""
+      }
+    ],
     "description": "Développement d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
     "tags": [
       "html",
@@ -20,7 +36,23 @@
     "title": "Site Sophie Bluel",
     "picture": "/src/assets/img/sophie_cover.webp",
     "picture500": "/src/assets/img/sophie_cover500.webp",
-    "pictures": [],
+    "pictures": [
+      {
+        "picture1": "/src/assets/img/sophie1.webp",
+        "title1": "Filtrage des projets en Javascript.",
+        "text1": ""
+      },
+      {
+        "picture2": "",
+        "title2": "",
+        "text2": ""
+      },
+      {
+        "picture3": "",
+        "title3": "",
+        "text3": ""
+      }
+    ],
     "description": "Conception du site portfolio d’une architecte d’intérieur avec Javascript.",
     "tags": [
       "html",
@@ -35,7 +67,23 @@
     "title": "Site Kasa en React",
     "picture": "/src/assets/img/kasa_cover.webp",
     "picture500": "/src/assets/img/kasa_cover500.webp",
-    "pictures": [],
+    "pictures": [
+      {
+        "picture1": "/src/assets/img/kasa1.webp",
+        "title1": "Création de pages location en React.",
+        "text1": ""
+      },
+      {
+        "picture2": "",
+        "title2": "",
+        "text2": ""
+      },
+      {
+        "picture3": "",
+        "title3": "",
+        "text3": ""
+      }
+    ],
     "description": "Création d'une application web de location immobilière avec React.",
     "tags": [
       "html",
@@ -50,7 +98,23 @@
     "title": "Site Nina Carducci",
     "picture": "/src/assets/img/nina_cover.webp",
     "picture500": "/src/assets/img/nina_cover500.webp",
-    "pictures": [],
+    "pictures": [
+      {
+        "picture1": "/src/assets/img/nina1.webp",
+        "title1": "Optimisation du format des images pour le SEO.",
+        "text1": ""
+      },
+      {
+        "picture2": "",
+        "title2": "",
+        "text2": ""
+      },
+      {
+        "picture3": "",
+        "title3": "",
+        "text3": ""
+      }
+    ],
     "description": "Optimisation du référencement d'un site de photographe.",
     "tags": [
       "html",

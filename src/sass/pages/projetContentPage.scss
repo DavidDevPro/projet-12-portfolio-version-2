@@ -8,7 +8,7 @@
   .page {
     max-width: 1600px;
     width: 100%;
-    margin: 80px auto;
+    margin: 80px auto 50px;
     padding: 0 25px;
     .page__container {
       @include transition500;
