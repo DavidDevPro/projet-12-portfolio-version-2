@@ -4,11 +4,11 @@
     "id": 2,
     "link": "",
     "title": "Site OhmyFood",
-    "picture": "/src/assets/img/ohmyfood_cover.webp",
-    "picture500": "/src/assets/img/ohmyfood_cover500.webp",
+    "picture": "/src/assets/img/ohmyfood_cover.jpg",
+    "picture500": "/src/assets/img/ohmyfood_cover500.jpg",
     "pictures": [
       {
-        "picture1": "/src/assets/img/ohmyfood1.webp",
+        "picture1": "/src/assets/img/ohmyfood1.jpg",
         "title1": "Création de pages menus.",
         "text1": "Pour ce projet, ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !"
       },
@@ -34,11 +34,11 @@
     "id": 2,
     "link": "",
     "title": "Site Sophie Bluel",
-    "picture": "/src/assets/img/sophie_cover.webp",
-    "picture500": "/src/assets/img/sophie_cover500.webp",
+    "picture": "/src/assets/img/sophie_cover.jpg",
+    "picture500": "/src/assets/img/sophie_cover500.jpg",
     "pictures": [
       {
-        "picture1": "/src/assets/img/sophie1.webp",
+        "picture1": "/src/assets/img/sophie1.jpg",
         "title1": "Filtrage des projets en Javascript.",
         "text1": ""
       },
@@ -65,11 +65,11 @@
     "id": 2,
     "link": "",
     "title": "Site Kasa en React",
-    "picture": "/src/assets/img/kasa_cover.webp",
-    "picture500": "/src/assets/img/kasa_cover500.webp",
+    "picture": "/src/assets/img/kasa_cover.jpg",
+    "picture500": "/src/assets/img/kasa_cover500.jpg",
     "pictures": [
       {
-        "picture1": "/src/assets/img/kasa1.webp",
+        "picture1": "/src/assets/img/kasa1.jpg",
         "title1": "Création de pages location en React.",
         "text1": ""
       },
@@ -96,11 +96,11 @@
     "id": 3,
     "link": "",
     "title": "Site Nina Carducci",
-    "picture": "/src/assets/img/nina_cover.webp",
-    "picture500": "/src/assets/img/nina_cover500.webp",
+    "picture": "/src/assets/img/nina_cover.jpg",
+    "picture500": "/src/assets/img/nina_cover500.jpg",
     "pictures": [
       {
-        "picture1": "/src/assets/img/nina1.webp",
+        "picture1": "/src/assets/img/nina1.jpg",
         "title1": "Optimisation des images.",
         "text1": ""
       },
@@ -128,11 +128,11 @@
     "id": 2,
     "link": "",
     "title": "Garage Auto Street",
-    "picture": "/src/assets/img/auto_street_cover.webp",
-    "picture500": "/src/assets/img/auto_street_cover500.webp",
+    "picture": "/src/assets/img/auto_street_cover.jpg",
+    "picture500": "/src/assets/img/auto_street_cover500.jpg",
     "pictures": [
       {
-        "picture1": "/src/assets/img/auto_street1.webp",
+        "picture1": "/src/assets/img/auto_street1.jpg",
         "title1": "Site vitrine automobile",
         "text1": ""
       },
