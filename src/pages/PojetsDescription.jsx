@@ -13,6 +13,7 @@ const ProjetsDescription = ({ projet }) => {
           />
           <div className="page__content__description__firstContainer__text">
             <h4>{projet.pictures[0].title1}</h4>
+            <p>{projet.pictures[0].text1}</p>
           </div>
         </div>
       </div>

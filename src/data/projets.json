@@ -10,7 +10,7 @@
       {
         "picture1": "/src/assets/img/ohmyfood1.webp",
         "title1": "Création de pages menus.",
-        "text1": ""
+        "text1": "Pour ce projet, ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !"
       },
       {
         "picture2": "",
@@ -101,7 +101,7 @@
     "pictures": [
       {
         "picture1": "/src/assets/img/nina1.webp",
-        "title1": "Optimisation du format des images pour le SEO.",
+        "title1": "Optimisation des images.",
         "text1": ""
       },
       {
@@ -121,6 +121,37 @@
       "bootstrap",
       "javascript",
       "SEO"
+    ]
+  },
+  {
+    "pageId": "4",
+    "id": 2,
+    "link": "",
+    "title": "Garage Auto Street",
+    "picture": "/src/assets/img/auto_street_cover.webp",
+    "picture500": "/src/assets/img/auto_street_cover500.webp",
+    "pictures": [
+      {
+        "picture1": "/src/assets/img/auto_street1.webp",
+        "title1": "Site vitrine automobile",
+        "text1": ""
+      },
+      {
+        "picture2": "",
+        "title2": "",
+        "text2": ""
+      },
+      {
+        "picture3": "",
+        "title3": "",
+        "text3": ""
+      }
+    ],
+    "description": "Création d'un site dynamique en Javascript",
+    "tags": [
+      "html",
+      "sass",
+      "javascript"
     ]
   }
 ]

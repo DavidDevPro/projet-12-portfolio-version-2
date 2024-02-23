@@ -86,9 +86,10 @@
           p {
             @include montserrat;
             width: 60%;
+            font-weight: 600;
             margin: auto;
             text-align: center;
-            color: $secondary-color;
+            color: $primary900_color;
             padding: 5px 0;
             border-bottom: 1px dashed $fourth_color;
           }

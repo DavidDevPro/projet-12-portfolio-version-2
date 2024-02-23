@@ -20,7 +20,7 @@
 
     h2 {
       @include transition350;
-      color: $secondary900_color;
+      color: $primary900_color;
       font-size: 3em;
       font-weight: 500;
       @media screen and (max-width: 768px) {
@@ -44,7 +44,7 @@
 
     &__infos {
       @include transition350;
-      color: $secondary900_color;
+      color: $primary900_color;
       display: flex;
       flex-direction: column;
       gap: 10px;
