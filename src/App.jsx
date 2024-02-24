@@ -2,10 +2,10 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import Projets from "./pages/Projets";
+import PageProjets from "./pages/PageProjets";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
-import ProjetsContent from "./pages/ProjetsContent";
+import PageOneProjet from "./pages/PageOneProjet";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -17,8 +17,8 @@ const App = () => {
       <Routes>
         <Route index path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/projets" element={<Projets />} />
-        <Route path="/projetscontent/:id" element={<ProjetsContent />} />
+        <Route path="/projets" element={<PageProjets />} />
+        <Route path="/projet/:id" element={<PageOneProjet />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

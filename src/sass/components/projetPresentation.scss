@@ -12,7 +12,7 @@
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 80px;
+
     color: $primary900_color;
   }
 
@@ -21,8 +21,9 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    margin-top: 45px;
 
-    &__firstContainer {
+    &__container {
       @include transition425;
       @include montserrat;
       background-color: $primary900_color;

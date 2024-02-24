@@ -5,7 +5,7 @@ import DataProjets from "../data/projets.json";
 import filterData from "../data/filter.json";
 import { Link } from "react-router-dom";
 
-const Projets = () => {
+const PageProjets = () => {
   const [filteredvalue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
@@ -56,7 +56,7 @@ const Projets = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.title}</p>
-                    <Link to={`/projetscontent/${item.pageId}`}>
+                    <Link to={`/projet/${item.pageId}`}>
                       <button>Visiter</button>
                     </Link>
                   </div>
@@ -70,4 +70,4 @@ const Projets = () => {
   );
 };
 
-export default Projets;
+export default PageProjets;

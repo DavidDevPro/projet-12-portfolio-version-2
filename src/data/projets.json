@@ -1,6 +1,6 @@
 [
   {
-    "pageId": "0",
+    "pageId": "ohmyfood",
     "id": 2,
     "link": "",
     "title": "Site OhmyFood",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "pageId": "1",
+    "pageId": "sophie_bluel",
     "id": 2,
     "link": "",
     "title": "Site Sophie Bluel",
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "pageId": "2",
+    "pageId": "kasa",
     "id": 2,
     "link": "",
     "title": "Site Kasa en React",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "pageId": "3",
+    "pageId": "nina_carducci",
     "id": 3,
     "link": "",
     "title": "Site Nina Carducci",
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "pageId": "4",
+    "pageId": "auto_street",
     "id": 2,
     "link": "",
     "title": "Garage Auto Street",
@@ -137,13 +137,13 @@
         "text1": ""
       },
       {
-        "picture2": "",
-        "title2": "",
+        "picture2": "/src/assets/img/auto_street2.jpg",
+        "title2": "titre2",
         "text2": ""
       },
       {
-        "picture3": "",
-        "title3": "",
+        "picture3": "/src/assets/img/auto_street3.jpg",
+        "title3": "titre3",
         "text3": ""
       }
     ],

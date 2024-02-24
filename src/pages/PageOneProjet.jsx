@@ -1,10 +1,10 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHead from "../components/PageHead";
-import ProjetsDescription from "../components/ProjetsDescription";
 import { useParams } from "react-router-dom";
 import Projets from "../data/projets.json";
 import Tags from "../components/Tags";
+import ProjetContent from "../components/ProjetContent";
 
 const ProjetsContent = () => {
   const { id } = useParams();
@@ -33,7 +33,7 @@ const ProjetsContent = () => {
         </div>
       </div>
       {/* Passer le projet à ProjetsDescription */}
-      <ProjetsDescription projet={projet} />
+      <ProjetContent projet={projet} />
     </div>
   );
 };
