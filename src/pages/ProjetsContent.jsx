@@ -1,9 +1,10 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHead from "../components/PageHead";
-import ProjetsDescription from "./PojetsDescription";
+import ProjetsDescription from "../components/ProjetsDescription";
 import { useParams } from "react-router-dom";
 import Projets from "../data/projets.json";
+import Tags from "../components/Tags";
 
 const ProjetsContent = () => {
   const { id } = useParams();
@@ -26,7 +27,7 @@ const ProjetsContent = () => {
           />
           <div className="page__container__tags">
             {projet.tags.map((tag, index) => (
-              <span key={index}>{tag}</span>
+              <Tags key={index} text={tag} />
             ))}
           </div>
         </div>

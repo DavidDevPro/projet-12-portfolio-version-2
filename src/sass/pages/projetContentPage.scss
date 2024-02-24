@@ -39,8 +39,7 @@
         display: block;
         border: 1px solid $primary900_color;
         border-radius: 25px;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.55);
         animation: open 1s ease-in-out;
 
         @keyframes open {
@@ -60,6 +59,7 @@
         width: 100%;
         gap: 20px;
         display: flex;
+        flex-direction: row;
         text-align: center;
         justify-content: center;
         flex-wrap: wrap;

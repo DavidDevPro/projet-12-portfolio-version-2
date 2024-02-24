@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjetsDescription = ({ projet }) => {
   // Accepte le projet en tant que prop
   return (
