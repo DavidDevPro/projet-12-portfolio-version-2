@@ -6,6 +6,7 @@ import Projets from "../data/projets.json";
 import Tags from "../components/Tags";
 import ProjetContent from "../components/ProjetContent";
 import DropList from "../components/DropList";
+import { TbArrowBigDownLinesFilled } from "react-icons/tb";
 
 const PageOneProjet = () => {
   const { id } = useParams();
@@ -35,6 +36,12 @@ const PageOneProjet = () => {
       </div>
       {/* Passer le projet à ProjetsDescription */}
       <ProjetContent projet={projet} />
+      <div className="project__content__page__dropList-title">
+        <h2>{`Plus de détails sur ${projet.title}`}</h2>
+        <span>
+          <TbArrowBigDownLinesFilled className="fa_arrow" />
+        </span>
+      </div>
       <DropList dropList={projet.dropList} />
     </div>
   );

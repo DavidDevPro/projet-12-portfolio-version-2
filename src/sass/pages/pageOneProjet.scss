@@ -4,6 +4,36 @@
 .project__content__page {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+
+  &__dropList-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0;
+    padding: 55px 25px 15px;
+    gap: 25px;
+    border-top: 1px dashed $fourth_color;
+
+    h2 {
+      @include montserrat;
+      font-size: 1.5em;
+      font-weight: 600;
+      color: $primary900_color;
+    }
+    span {
+      padding: 12px;
+      display: flex;
+      border-radius: 50%;
+      border: 2px solid $fourth_color;
+      background-color: $primary900_color;
+      .fa_arrow {
+        font-size: 1.5em;
+        color: $secondary_color;
+      }
+    }
+  }
 
   .page {
     max-width: 1600px;

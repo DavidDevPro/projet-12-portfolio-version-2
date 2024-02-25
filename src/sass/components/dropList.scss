@@ -4,7 +4,7 @@
 .dropList__container {
   width: 100%;
   max-width: 1024px;
-  margin: 20px auto 0;
+  margin: 40px auto 0px;
   padding: 0 25px;
 
   &__headList {
@@ -43,17 +43,19 @@
     opacity: 0;
     font-weight: 500;
     font-size: 1.1em;
-    padding: 32px 15px 20px;
-    margin: -12px 0 0;
+    padding: 27px 15px 20px;
+    margin: -10px 0 0;
     border-radius: 0 0 12px 12px;
     transform: translateY(-35px);
     transition: transform 700ms, opacity 500ms ease;
     box-sizing: border-box;
+    border: 1px solid $primary900_color;
 
     &.open {
       opacity: 1;
       transform: translateY(0px);
       height: max-content;
+      box-sizing: border-box;
     }
   }
 }
