@@ -14,7 +14,10 @@
   flex-shrink: 0;
   top: 0;
   z-index: 1000;
-  opacity: 0.97;
+  opacity: 0.96;
+  @media screen and (max-width: 768px) {
+    opacity: 1;
+  }
 
   &__container {
     display: flex;
