@@ -1,0 +1,59 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.dropList__container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px auto 0;
+  padding: 0 25px;
+
+  &__headList {
+    @include transition350;
+    @include montserrat;
+    background-color: $primary900_color;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    z-index: 1;
+    position: relative;
+
+    h3 {
+      color: $secondary_color;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+    .arrow {
+      cursor: pointer;
+      transition: transform 400ms ease;
+      height: 25px;
+      width: 25px;
+      &.turn {
+        transform: rotate(-180deg);
+      }
+    }
+  }
+  .content {
+    @include montserrat;
+    background-color: $fourth_color;
+    color: $primary900_color;
+    height: 0;
+    opacity: 0;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 32px 15px 20px;
+    margin: -12px 0 0;
+    border-radius: 0 0 12px 12px;
+    transform: translateY(-35px);
+    transition: transform 700ms, opacity 500ms ease;
+    box-sizing: border-box;
+
+    &.open {
+      opacity: 1;
+      transform: translateY(0px);
+      height: max-content;
+    }
+  }
+}

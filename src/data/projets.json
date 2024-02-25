@@ -27,7 +27,11 @@
     "tags": [
       "html",
       "sass"
-    ]
+    ],
+    "dropList": {
+      "title": "Déscription du projet.",
+      "text": "ohmyfood text"
+    }
   },
   {
     "pageId": "sophie_bluel",
@@ -58,7 +62,11 @@
       "html",
       "css",
       "JavaScript"
-    ]
+    ],
+    "dropList": {
+      "title": "Déscription du projet.",
+      "text": "sophie text"
+    }
   },
   {
     "pageId": "kasa",
@@ -89,7 +97,11 @@
       "html",
       "sass",
       "React.js"
-    ]
+    ],
+    "dropList": {
+      "title": "Déscription du projet.",
+      "text": "kasa text"
+    }
   },
   {
     "pageId": "nina_carducci",
@@ -121,7 +133,11 @@
       "bootstrap",
       "javascript",
       "SEO"
-    ]
+    ],
+    "dropList": {
+      "title": "Déscription du projet.",
+      "text": "nina text"
+    }
   },
   {
     "pageId": "auto_street",
@@ -152,6 +168,10 @@
       "html",
       "sass",
       "javascript"
-    ]
+    ],
+    "dropList": {
+      "title": "Déscription du projet.",
+      "text": "auto-street text"
+    }
   }
 ]

@@ -5,8 +5,9 @@ import { useParams } from "react-router-dom";
 import Projets from "../data/projets.json";
 import Tags from "../components/Tags";
 import ProjetContent from "../components/ProjetContent";
+import DropList from "../components/DropList";
 
-const ProjetsContent = () => {
+const PageOneProjet = () => {
   const { id } = useParams();
   const projet = Projets.find((item) => item.pageId === id);
   console.log(id);
@@ -34,8 +35,9 @@ const ProjetsContent = () => {
       </div>
       {/* Passer le projet à ProjetsDescription */}
       <ProjetContent projet={projet} />
+      <DropList dropList={projet.dropList} />
     </div>
   );
 };
 
-export default ProjetsContent;
+export default PageOneProjet;
