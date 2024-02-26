@@ -4,7 +4,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (

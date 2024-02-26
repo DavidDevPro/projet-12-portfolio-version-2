@@ -42,7 +42,13 @@ const PageOneProjet = () => {
           <TbArrowBigDownLinesFilled className="fa_arrow" />
         </span>
       </div>
-      <DropList dropList={projet.dropList} />
+
+      <DropList
+        title={projet.dropList.item.title}
+        text1={projet.dropList.item.text1}
+        text2={projet.dropList.item.text2}
+        lien={projet.dropList.item.lien}
+      />
     </div>
   );
 };

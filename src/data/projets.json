@@ -29,8 +29,12 @@
       "sass"
     ],
     "dropList": {
-      "title": "Déscription du projet.",
-      "text": "ohmyfood text"
+      "item": {
+        "title": "Déscription du projet",
+        "text1": "text1 ohmyfood",
+        "text2": "text2 ohmyfood",
+        "lien": ""
+      }
     }
   },
   {
@@ -64,8 +68,12 @@
       "JavaScript"
     ],
     "dropList": {
-      "title": "Déscription du projet.",
-      "text": "sophie text"
+      "item": {
+        "title": "Déscription du projet",
+        "text1": "text1 sophie",
+        "text2": "text2 sophie",
+        "lien": ""
+      }
     }
   },
   {
@@ -99,8 +107,12 @@
       "React.js"
     ],
     "dropList": {
-      "title": "Déscription du projet.",
-      "text": "kasa text"
+      "item": {
+        "title": "Déscription du projet",
+        "text1": "text1 kasa",
+        "text2": "text2 kasa",
+        "lien": ""
+      }
     }
   },
   {
@@ -135,8 +147,12 @@
       "SEO"
     ],
     "dropList": {
-      "title": "Déscription du projet.",
-      "text": "nina text"
+      "item": {
+        "title": "Déscription du projet",
+        "text1": "text1 nina",
+        "text2": "text2 nina",
+        "lien": ""
+      }
     }
   },
   {
@@ -170,8 +186,12 @@
       "javascript"
     ],
     "dropList": {
-      "title": "Déscription du projet.",
-      "text": "auto-street text"
+      "item": {
+        "title": "Déscription du projet",
+        "text1": "Un site web dynamique créé pour Garage Auto Street, mettant en valeur leurs services et leur expertise dans l'entretien et la réparation automobile.",
+        "text2": "text2 auto street",
+        "lien": "https://github.com/david-backup/Auto-Street.js-Version-1"
+      }
     }
   }
 ]
