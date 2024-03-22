@@ -36,6 +36,18 @@
       border-radius: 50%;
       border: 2px solid $fourth_color;
       background-color: $primary900_color;
+      animation: dropListArrow 2000ms ease-in-out infinite;
+      @keyframes dropListArrow {
+        0% {
+          transform: translateY(-5px);
+        }
+        50% {
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(-5px);
+        }
+      }
       .fa_arrow {
         font-size: 1.5em;
         color: $secondary_color;

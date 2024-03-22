@@ -48,10 +48,14 @@
     margin: -10px 0 0;
     border-radius: 0 0 12px 12px;
     transform: translateY(-35px);
-    transition: opacity 700ms, transform 700ms ease;
+    transition: opacity 500ms, transform 800ms ease;
     border: 1px solid $primary900_color;
-    flex-shrink: 1;
-    flex: 1;
+
+    &.open {
+      opacity: 1;
+      transform: translateY(0px);
+      height: max-content;
+    }
 
     p {
       @include montserrat;
@@ -97,12 +101,6 @@
           border: 2px solid $primary900_color;
         }
       }
-    }
-
-    &.open {
-      opacity: 1;
-      transform: translateY(0px);
-      height: max-content;
     }
   }
 }
